@@ -2,11 +2,257 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Погнали</title>
+    <title>Погнали?/title>
   </head>
   <body>
+    <header class="page-header">
+      <a href="#" class="page-header__logo logo">Погнали</a>
+      <nav class="nav">
+        <button class="nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <ul class="menu">
+          <li class="menu__item"><a href="#" class="menu__link">О сервисе</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Направления</a></li>
+          <li class="menu__item"><a href="#" class="menu__link">Попутчики</a></li>
+        </ul>
+        <ul class="contacts">
+          <li class="contacts__item"><a href="tel:88005558638" class="contacts__link">8 800 555-86-28</a></li>
+          <li class="contacts__item"><a href="mailto:mail@htmlacademy.ru" class="contacts__link">mail@htmlacademy.ru</a></li>
+        </ul>
+        <ul class="socials">
+          <li class="socials_list"><a href="#" class="socials__link socials__link--fb"><span class="visually-hidden">Фейсбук</span></a></li>
+          <li class="socials_list"><a href="#" class="socials__link socials__link--vk"><span class="visually-hidden">Вконтакте</span></a></li>
+          <li class="socials_list"><a href="#" class="socials__link socials__link--ig"><span class="visually-hidden">Инстаграм</span></a></li>
+        </ul>
+        <ul class="authorization">
+          <li class="authorization__item"><a href="#" class="authorization-link js-login">Авториоваться</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="page-main">
+      <section class="hero">
+        <h1 class="visuzlly-hidden">Прилоожение для поиска попутчиков "Погнали!"</h1>
+        <p class="hero__slogan">В путешествие с крутыми попутчиками!</p>
+        <blockquote class="hero__cite">
+          <p class="hero__cite-text">«Лучшее приложение, что я видел в жизни!»</p>
+          <cite class="hero__cite-author">Мурат Эльтазин главный редактор газеты «гаджетлайф»</cite>
+        </blockquote>
+        <ol class="hero__instrustions">
+          <li class="hero__instructions-item">Выберите направление</li>
+          <li class="hero__instructions-item">Изучите идеи путешественников</li>
+          <li class="hero__instructions-item">Находите тех, кто похож на вас</li>
+          <li class="hero__instructions-item">Путешествуйте вместе!</li>
+        </ol>
+      </section>
+      <section class="about">
+        <h2 class="about__header">О сервисе</h2>
+        <p class="about__philosophy">Любое путешествие веселее с попутчиками, которые на одной волне с тобой! Делитесь своими идеями путешествий и черпайте вдохновение в чужих.</p>
+        <p class="about__motivation">А если найдете кого-то близкого по духу — скорее зовите в совместный трип!</p>
+        <a href="#" class="about__read-more">Подробнее</a>
+      </section>
+      <section class="directions">
+        <h2 class="directions__header">Направления</h2>
+        <p class="direction__lead">Мы не продаем туры и ничего не рекламируем. Люди сами пишут о странах, куда хотели бы отправиться и чем можно там заняться.</p>
+        <ul class="directions__list">
+          <li class="directions__item">
+            <a href="#" class="directions__link">
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+            </a>
+          </li>
+          <li class="directions__item">
+            <a href="#" class="directions__item-link">
+              <h3 class="directions__item-title">Таиланд</h3>
+              <p class="directions__item-slogan">Джунгли зовут!</p>
+              <p class="directions__item-interested-users">18321</p>
+            </a>
+          </li>
+          <li class="directions__item">
+            <a href="#" class="directions__link">
+              <h3 class="directions__item-title">Франция</h3>
+              <p class="directions__item-slogan">Трэ бьен, манифик!</p>
+              <p class="directions__item-interested-users">12518</p>
+            </a>
+        </li>
+          <li class="directions__item">
+            <a href="#" class="directions__link">
+              <h3 class="directions__item-title">Чехия</h3>
+              <p class="directions__item-slogan">Закоулки старой Европы</p>
+              <p class="directions__item-interested-users">5326</p>
+            </a>
+          </li>
+        </ul>
+        <a href="#" class="directions__read-more">Подробнее</a>
+      </section>
+      <section class="companions">
+        <h2 class="companions__header">Попутчики</h2>
+        <p class="companions__philosophy">Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и коктейль, а другому маршрут для хайкинга.</p>
+        <p class="companions__motivation">Теперь можно легко найти единомышленников!</p>
+        <ul class="companions__list">
+          <li class="comapnions__item">
+            <div class="companion">
+              <a href="#" class="companion-link">
+                <h3 class="companion__name companion__name--online">Таня Фирсова<span class="online"><i class="visually-hidden">Сейчас на сайте</i></span></h3>
+                <div class="companion__photo-wrapper">
+                  <img class="companion__photo" src="#" alt="Фотография пользователя" width="70" height="70">
+                </div>
+              </a>
+              <button class="companion__likes like js-like"><span class="like__heart"></span><span class="like__number data-likes="1550000>1,5M</span></button>
+              <div class="companion__level level">
+                <h4 class="companion__sub-header">Левел</h4>
+                <p class="companion__level level">
+                  <b class="level__number">99</b> level
+                </p>
+              </div>
+              <div>
+                <h3>Хочу посетить:</h3>
+                <ul class="companion__countries-to-visit countries">
+                  <li class="countries__item">
+                    <a href="#" class="countries__link countries__link--sri-Lanka">
+                      <span class="visually-hidden">Шри Ланка</span>
+                    </a>
+                  </li>
+                  <li class="countries__item">
+                    <a href="#" class="countries__link countries__link--thailand">
+                      <span class="visually-hidden">Тайланд</span>
+                    </a>
+                  </li>
+                  <li class="countries__item">
+                    <a href="#" class="countries__link countries__link--seychelles">
+                      <span class="visually-hidden">Сейшеллы</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <ul class="companion__item-hashtags hashtags">
+                <li class="hashtags__item">
+                  <a href="#" class="hashtags__link">#ЗОЖ</a>
+                </li>
+                <li class="hashtags__item">
+                  <a href="#" class="hashtags__link">#ПП</a>
+                </li>
+                <li class="hashtags__item">
+                  <a href="#" class="hashtags__link">#Фитнес</a>
+                </li>
+                <li class="hashtags__item">
+                  <a href="#" class="hashtags__link">#пляж</a>
+                </li>
+                <li class="hashtags__item">
+                  <a href="#" class="hashtags__link">#авокадо</a>
+                </li>
+                <li class="hashtags__item">
+                  <a href="#" class="hashtags__link">#смузи</a>
+                </li>
+              </ul>
+              <ul class="companion__preferred-transport transport">
+                <li class="transport__item">
+                  <a href="" class="transport__link transport__link--active"><span class="visually-hidden">Самолет</span></a>
+                </li>
+                <li class="transport__item">
+                  <a href="" class="transport__link"><span class="visually-hidden">Автобус</span></a>
+                </li>
+                <li class="transport__item">
+                  <a href="" class="transport__link"><span class="visually-hidden">Велосипед</span></a>
+                </li>
+                <li class="transport__item">
+                  <a href="" class="transport__link"><span class="visually-hidden">Пешком</span></a>
+                </li>
+              </ul>
+              <a href="#" class="invite">Позвать</a>
+            </div>
+          </li>
+          <!-- <li class="comapnions__item">
+            <a href="#" class="companions__item-link">
+              <h3 class="companions__item-header">Петя Демин</h3>
+              <p class="companions__level">
+                <span class="companions__level-nimber companions__level-nimber">80</span> level
+              </p>
+              <ul class="companions__countries-visited countries">
+                <li class="countries__item">
+                  <a href="#" class="countries__link countries__link--belgium">
+                    <span class="visually-hidden">Belgium</span>
+                  </a>
+                </li>
+                <li class="countries__item">
+                  <a href="#" class="countries__link countries__link--czech">
+                    <span class="visually-hidden">Czech</span>
+                  </a>
+                </li>
+              </ul>
+              <ul class="companions__item-hashtags hashtags">
+                <li class="hashtags__item">
+                  <a href="#" class="hashtags__link">#бургер</a>
+                </li>
+                <li class="hashtags__item">
+                  <a href="#" class="hashtags__link">#бар</a>
+                </li>
+                <li class="hashtags__item">
+                  <a href="#" class="hashtags__link">#футбол</a>
+                </li>
+                <li class="hashtags__item">
+                  <a href="#" class="hashtags__link">#концерт</a>
+                </li>
+                <li class="hashtags__item">
+                  <a href="#" class="hashtags__link">#крафт</a>
+                </li>
+              </ul>
+              <ul class="companions__preferred-transport transport">
+                <li class="transport__item">
+                  <a href="" class="transport__link transport__link--active"><span class="visually-hidden">Самолет</span></a>
+                </li>
+                <li class="transport__item">
+                  <a href="" class="transport__link transport__link--active"><span class="visually-hidden">Автобус</span></a>
+                </li>
+                <li class="transport__item">
+                  <a href="" class="transport__link"><span class="visually-hidden">Велосипед</span></a>
+                </li>
+                <li class="transport__item">
+                  <a href="" class="transport__link transport__link--active"><span class="visually-hidden">Пешком</span></a>
+                </li>
+              </ul>
+            </a>
+          </li> -->
+        </ul>
+        <a class="companions__show-more">Показать всех</a>
+      </section>
+      <section class="join">
+        <h2 class="join__header">Добавьте свой профиль</h2>
+        <ul class="join__price-list">
+          <li class="join__price-list-item">Базовое размещение </li>
+          <li class="join__price-list-item"></li>
+          <li class="join__price-list-item"></li>
+        </ul>
+        <table class="join__price-list">
+          <tr>
+            <td>1</td>
+            <td>Базовое размещение</td>
+            <td>Бесплатно</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Вывод на первых позициях</td>
+            <td>99 руб./мес</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Кастомный цвет карточки</td>
+            <td>59 руб./мес</td>
+          </tr>
+        </table>
+        <a href="#" class="join__price-list-pro">Показать тарифы для бизнеса</a>
+      </section>
+      <!-- <div class="other-pages">
+        <a href="#" class="other-pages__back"></a>
+        <a href="#" class="other-pages__forward"></a>
+      </div> -->
 
+    </main>
+    <footer class="page-footer">
+      <a href="#" class="page-footer__logo logo">Погнали</a>
+    </footer>
+    <ul class="socials">
+      <li class="socials_list"><a href="#" class="socials__link"><span class="visually-hidden">Фейсбук</span></a></li>
+      <li class="socials_list"><a href="#" class="socials__link"><span class="visually-hidden">Вконтакте</span></a></li>
+      <li class="socials_list"><a href="#" class="socials__link"><span class="visually-hidden">Инстаграм</span></a></li>
+    </ul>
+    <div class="developed"><a href="#" class="developed__link">Разработано <span class="visually-hidden">HTMLAcademy</span></a></div>
   </body>
 </html>
