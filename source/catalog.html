@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Погнали?/title>
+  </head>
+  <body class="page">
+    <!-- header -->
+    <main class="page-main">
+      <section class="filter">
+        <ul class="filter__regions">
+          <li class="filter__regions-item">
+            <button class="filter__regions-button filter__regions-button--active" type="button">Европа</button>
+          </li>
+          <li class="filter__regions-item">
+            <button class="filter__regions-button" type="button">Азия</button>
+          </li>
+          <li class="filter__regions-item">
+            <button class="filter__regions-button" type="button">Америка</button>
+          </li>
+          <li class="filter__regions-item">
+            <button class="filter__regions-button" type="button">Острова</button>
+          </li>
+        </ul>
+        <ul class="filter__alphabetical-filter alphabetical-filter">
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="А">А</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="Б">Б</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="В">В</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="Г">Г</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="Д">Д</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="Е">Е</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="З">З</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="И">И</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="К">К</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="Л">Л</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="М">М</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="Н">М</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="О">О</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="П">П</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="Р">Р</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="С">С</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="Т">Т</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="У">У</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="Ф">Ф</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="Х">Х</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="Ч">Ч</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="Ш">Ш</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="Э">Э</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="Ю">Ю</button></li>
+          <li class="alphabetical-filter__item"><button class="alphabetical__filter__button" type="button" data-letter="Я">Я</button></li>
+        </ul>
+        <ul class="filter__countries">
+          <li class="filter__countries-item">
+            <a href="#" class="filter__countries-link">Россия</a>
+          </li>
+          <li class="filter__countries-item">
+            <a href="#" class="filter__countries-link">Испания</a>
+          </li>
+          <li class="filter__countries-item filter__countries-item--active">
+            <a href="#" class="filter__countries-link">Армения</a>
+          </li>
+          <li class="filter__countries-item">
+            <a href="#" class="filter__countries-link">Норвегия</a>
+          </li>
+          <li class="filter__countries-item">
+            <a href="#" class="filter__countries-link">Германия</a>
+          </li>
+          <li class="filter__countries-item">
+            <a href="#" class="filter__countries-link">ЮАР</a>
+          </li>
+          <li class="filter__countries-item">
+            <a href="#" class="filter__countries-link">Болгария</a>
+          </li>
+          <li class="filter__countries-item">
+            <a href="#" class="filter__countries-link">Финляндия</a>
+          </li>
+          <li class="filter__countries-item">
+            <a href="#" class="filter__countries-link">Швеция</a>
+          </li>
+          <li class="filter__countries-item">
+            <a href="#" class="filter__countries-link">Дания</a>
+          </li>
+        </ul>
+        <button class="filter__close">Свернуть</button>
+      </section>
+      <section class="find-companion">
+        <h2 class="find-companion__form">Подберите идеального попутчика</h2>
+        <form class="find-companion__form" action="#" method="POST">
+          <fieldset>
+            <legend>Хобби<span>:</span></legend>
+            <ul>
+              <li class="custom-input custom-input--checkbox">
+                <input type="checkbox" id="hobby-gym" name="hobby-gym" checked>
+                <label for="hobby-gym"><span>Спортзал</span></label>
+              </li>
+              <li class="custom-input custom-input--checkbox">
+                <input type="checkbox" id="hobby-hookah" name="hobby-hookah">
+                <label for="hobby-hookah"><span></span></label>
+              </li>
+              <li class="custom-input custom-input--checkbox">
+                <input type="checkbox" id="hobby-couch" name="hobby-couch">
+                <label for="hobby-couch"><span></span></label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Музыка<span>:</span></legend>
+            <ul>
+              <li class="custom-input custom-input--checkbox">
+                <input type="checkbox" id="music-rock" name="music-rock" checked>
+                <label for="music-rock"><span></span></label>
+              </li>
+              <li class="custom-input custom-input--checkbox">
+                <input type="checkbox" id="music-rap" name="music-rap" checked>
+                <label for="music-rap"><span></span></label>
+              </li>
+              <li class="custom-input custom-input--checkbox">
+                <input type="checkbox" id="music-dance" name="music-dance" checked>
+                <label for="music-dance"><span></span></label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Еда<span>:</span></legend>
+            <ul>
+              <li class="custom-input custom-input--checkbox">
+                <input type="checkbox" id="diet-meet" name="diet-meet" checked>
+                <label for="diet-meet"><span></span></label>
+              </li>
+              <li class="custom-input custom-input--checkbox">
+                <input type="checkbox" id="diet-proper" name="diet-proper">
+                <label for="diet-proper"><span></span></label>
+              </li>
+              <li class="custom-input custom-input--checkbox">
+                <input type="checkbox" id="diet-vegan" name="diet-vegan">
+                <label for="diet-vegan"><span></span></label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Транспорт<span>:</span></legend>
+            <ul>
+              <li class="custom-input custom-input--checkbox">
+                <input type="checkbox" id="transport-airplain" name="transport-airplain" checked>
+                <label for="transport-airplain"><span></span></label>
+              </li>
+              <li class="custom-input custom-input--checkbox">
+                <input type="checkbox" id="transport-bus" name="transport-bus" checked>
+                <label for="transport-bus"><span></span></label>
+              </li>
+              <li class="custom-input custom-input--checkbox">
+                <input type="checkbox" id="transport-bicycle" name="transport-bicycle">
+                <label for="transport-bicycle"><span></span></label>
+              </li>
+              <li class="custom-input custom-input--checkbox">
+                <input type="checkbox" id="transport-walk" name="transport-walk">
+                <label for="transport-walk"><span></span></label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Левел<span>:</span></legend>
+          </fieldset>
+          <button type="submit">Показать</button>
+
+        </form>
+      </section>
+      <section class="companions">
+        <h2 class="companions__header">Попутчики</h2>
+        <ul class="companions__list">
+          <li class="comapnions__item">
+            <div class="companion">
+              <a href="#" class="companion-link">
+                <h3 class="companion__name companion__name--online">Таня Фирсова<span class="online"><i class="visually-hidden">Сейчас на сайте</i></span></h3>
+                <div class="companion__photo-wrapper">
+                  <img class="companion__photo" src="#" alt="Фотография пользователя" width="70" height="70">
+                </div>
+              </a>
+              <button class="companion__likes like js-like"><span class="like__heart"></span><span class="like__number data-likes="1550000>1,5M</span></button>
+              <div class="companion__level level">
+                <h4 class="companion__sub-header">Левел</h4>
+                <p class="companion__level level">
+                  <b class="level__number">99</b> level
+                </p>
+              </div>
+              <div>
+                <h3>Хочу посетить:</h3>
+                <ul class="companion__countries-to-visit countries">
+                  <li class="countries__item">
+                    <a href="#" class="countries__link countries__link--sri-Lanka">
+                      <span class="visually-hidden">Шри Ланка</span>
+                    </a>
+                  </li>
+                  <li class="countries__item">
+                    <a href="#" class="countries__link countries__link--thailand">
+                      <span class="visually-hidden">Тайланд</span>
+                    </a>
+                  </li>
+                  <li class="countries__item">
+                    <a href="#" class="countries__link countries__link--seychelles">
+                      <span class="visually-hidden">Сейшеллы</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <ul class="companion__item-hashtags hashtags">
+                <li class="hashtags__item">
+                  <a href="#" class="hashtags__link">#ЗОЖ</a>
+                </li>
+                <li class="hashtags__item">
+                  <a href="#" class="hashtags__link">#ПП</a>
+                </li>
+                <li class="hashtags__item">
+                  <a href="#" class="hashtags__link">#Фитнес</a>
+                </li>
+                <li class="hashtags__item">
+                  <a href="#" class="hashtags__link">#пляж</a>
+                </li>
+                <li class="hashtags__item">
+                  <a href="#" class="hashtags__link">#авокадо</a>
+                </li>
+                <li class="hashtags__item">
+                  <a href="#" class="hashtags__link">#смузи</a>
+                </li>
+              </ul>
+              <ul class="companion__preferred-transport transport">
+                <li class="transport__item">
+                  <a href="" class="transport__link transport__link--active"><span class="visually-hidden">Самолет</span></a>
+                </li>
+                <li class="transport__item">
+                  <a href="" class="transport__link"><span class="visually-hidden">Автобус</span></a>
+                </li>
+                <li class="transport__item">
+                  <a href="" class="transport__link"><span class="visually-hidden">Велосипед</span></a>
+                </li>
+                <li class="transport__item">
+                  <a href="" class="transport__link"><span class="visually-hidden">Пешком</span></a>
+                </li>
+              </ul>
+              <a href="#" class="invite">Позвать</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- footer -->
+  </body>
+</html>
